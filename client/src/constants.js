@@ -1,0 +1,1 @@
+export const API_URL = process.env.NODE_ENV === 'production' ? 'https://airline-ratings.herokuapp.com/api/v1' : import.meta.env.VITE_API_URL
